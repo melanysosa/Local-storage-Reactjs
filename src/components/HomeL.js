@@ -36,7 +36,7 @@ const HomeL = () => {
 				</button>
 			</div>
 
-			{!!savedData && <Profile />}
+			{<Profile />}
 		</div>
 	);
 };
