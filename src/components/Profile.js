@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Profile = () => {
-	const [nombre, setNombre] = useState('');
+	const [name, setName] = useState('');
 
 	const getData = () => {
-		return localStorage.getItem('nombre');
+		return localStorage.getItem('name');
 	};
 
 	useEffect(() => {
-		setNombre(getData());
+		setName(getData());
 	}, []);
 
 	return (
 		<div className='d-flex justify-content-center mt-5 ' >
-			<h2 className='profile'>Hola {nombre}</h2>
+			<h2 className='profile'>Hola {name}</h2>
 		</div>
 	);
 };

@@ -16,7 +16,7 @@ const HomeL = () => {
 	};
 
 	const saveData = () => {
-		localStorage.setItem('nombre', inputText);
+		localStorage.setItem('name', inputText);
 		setSavedData(true);
 	};
 
@@ -36,7 +36,7 @@ const HomeL = () => {
 				</button>
 			</div>
 
-			{<Profile />}
+			{!!savedData && <Profile />}
 		</div>
 	);
 };
