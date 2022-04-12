@@ -1,0 +1,32 @@
+.container {
+	padding: 1rem;
+	border-radius: 10%;
+	
+}
+.input {
+	background-color: #ece4e4;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	width: 30%;
+	margin-bottom: 1rem;
+}
+.button {
+	background-color: rgb(87, 196, 87);
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	width: 30%;
+}
+.title{
+	color: rgb(180, 99, 99);
+
+}
+.profile{
+	color: rgb(190, 178, 178);
+}
+
+
+
+
